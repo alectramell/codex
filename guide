@@ -1,0 +1,17 @@
+# Example usage..
+	
+	$ ffmpeg -i video.mkv -vcodec h264 -acodec mp3
+
+Video..
+
+	h264
+	h264p
+
+Audio..
+
+	mp3
+	aac
+
+# For a complete list of system media codecs, use the following command..
+
+	$ ffmpeg -codecs > cdx && cat cdx
